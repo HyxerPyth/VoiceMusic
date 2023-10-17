@@ -12,7 +12,7 @@ pressButton.textContent = playIcon;
 
 //  OpenAI 
 const { Configuration, OpenAIApi } = require("openai");
-const configuration = new Configuration({ apiKey: "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" });
+const configuration = new Configuration({ apiKey: "ENTER YOUR OPENAI API KEY HERE" });
 const openai = new OpenAIApi(configuration);
 
 // Music mapping
